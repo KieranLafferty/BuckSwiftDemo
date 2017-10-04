@@ -1,0 +1,49 @@
+apple_library(
+  name = 'BuckSwiftDemoLibrary',
+  srcs = glob([
+    'BuckSwiftDemo/AppDelegate.swift',
+    'BuckSwiftDemo/ViewController.swift',
+  ]),
+  deps = [
+  	'//Libraries/SomeExternalLibrary:SomeExternalLibrary',
+    '//Vendors/AdColony:AdColony',
+    '//Vendors/Crashlytics:Crashlytics',
+    '//Vendors/MBProgressHUD:MBProgressHUD',
+    '//Vendors/OpenSSL:OpenSSL',
+    '//Vendors/SDWebImage:SDWebImage',
+    '//Vendors/Signals:Signals',
+    '//Vendors/Squall:Squall',
+    '//Vendors/SwiftDate:SwiftDate',
+    '//Vendors/SwiftyStoreKit:SwiftyStoreKit',
+    '//Vendors/SwiftyTimer:SwiftyTimer',
+    '//Vendors/URLNavigator:URLNavigator',
+    '//Vendors/Vungle:Vungle',
+  ],
+  swift_version='3.0',
+  frameworks = [
+      '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+      '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+  ],
+)
+
+apple_binary(
+    name = 'BuckSwiftDemoBinary',
+    deps = [
+        ':BuckSwiftDemoLibrary',
+    ],
+    swift_version='3.0',
+    srcs = [
+        'BuckSwiftDemo/main.m'
+    ]
+)
+
+apple_bundle(
+    name = 'BuckSwiftDemo',
+    binary = ':BuckSwiftDemoBinary',
+    extension = 'app',
+    info_plist = 'BuckSwiftDemo/Info.plist',
+    info_plist_substitutions = {
+      "PRODUCT_NAME" : "BuckSwiftDemo",
+      "PRODUCT_BUNDLE_IDENTIFIER" : "com.science-inc.BuckSwiftDemo"
+    }
+)
