@@ -44,6 +44,6 @@ apple_bundle(
     info_plist = 'BuckSwiftDemo/Info.plist',
     info_plist_substitutions = {
       "PRODUCT_NAME" : "BuckSwiftDemo",
-      "PRODUCT_BUNDLE_IDENTIFIER" : "com.science-inc.BuckSwiftDemo"
+      "PRODUCT_BUNDLE_IDENTIFIER" : "com.kieranlafferty.BuckSwiftDemo"
     }
 )
