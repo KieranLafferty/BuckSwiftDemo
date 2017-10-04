@@ -1,1 +1,0 @@
-/Users/kieranlafferty/Code/BuckSwiftDemo/buck-out/xcode/derived-sources/PromiseKit-0091a617a4763e4be8bbb717cf69337c8b3a9948/PromiseKit-Swift.h

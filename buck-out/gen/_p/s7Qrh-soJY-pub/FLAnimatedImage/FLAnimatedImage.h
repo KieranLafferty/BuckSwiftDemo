@@ -1,1 +1,0 @@
-/Users/kieranlafferty/Code/BuckSwiftDemo/Vendors/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.h

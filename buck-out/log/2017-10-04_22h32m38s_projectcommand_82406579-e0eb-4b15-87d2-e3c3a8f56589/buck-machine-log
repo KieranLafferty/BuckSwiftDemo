@@ -1,3 +1,0 @@
-InvocationInfo {"buildId":"82406579-e0eb-4b15-87d2-e3c3a8f56589","superConsoleEnabled":true,"isDaemon":false,"subCommand":"projectcommand","commandArgs":["project","version"],"unexpandedCommandArgs":["project","version"],"buckLogDir":"buck-out/log","timestampMillis":1507156358718}
-Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
-ExitCode {"exitCode":1}

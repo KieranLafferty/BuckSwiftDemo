@@ -1,1 +1,0 @@
-/Users/kieranlafferty/Code/BuckSwiftDemo/Vendors/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSettings+Internal.h

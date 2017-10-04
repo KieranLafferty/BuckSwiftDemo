@@ -1,1 +1,0 @@
-/Users/kieranlafferty/Code/BuckSwiftDemo/buck-out/xcode/derived-sources/BuckSwiftDemoLibrary-dfeaa6d48374a30e16e2b6715800d7c771353267/BuckSwiftDemoLibrary-Swift.h

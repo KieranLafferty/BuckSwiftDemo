@@ -1,1 +1,0 @@
-/Users/kieranlafferty/Code/BuckSwiftDemo/buck-out/xcode/derived-sources/ReactiveSwift-c74eca6760c0d4f46540ca8b2dc1af5412de29a9/ReactiveSwift-Swift.h

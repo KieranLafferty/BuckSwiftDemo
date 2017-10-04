@@ -1,1 +1,0 @@
-/Users/kieranlafferty/Code/BuckSwiftDemo/Vendors/SDWebImage/SDWebImage/SDWebImagePrefetcher.h
