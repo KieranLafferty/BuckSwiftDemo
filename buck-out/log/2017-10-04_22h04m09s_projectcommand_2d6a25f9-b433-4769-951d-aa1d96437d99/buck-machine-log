@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"2d6a25f9-b433-4769-951d-aa1d96437d99","superConsoleEnabled":true,"isDaemon":false,"subCommand":"projectcommand","commandArgs":["project","//Apps/BuckSwiftDemo:BuckSwiftDemo","--ide","xcode"],"unexpandedCommandArgs":["project","//Apps/BuckSwiftDemo:BuckSwiftDemo","--ide","xcode"],"buckLogDir":"buck-out/log","timestampMillis":1507154649070}
+ParseStarted {"timestamp":1507154652243}
+ParseFinished {"timestamp":1507154652268}
+ParseStarted {"timestamp":1507154653875}
+ParseFinished {"timestamp":1507154653876}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

@@ -1,0 +1,23 @@
+prebuilt_cxx_library(
+  name = 'CryptoLib',
+  static_lib = 'lib/libcrypto.a',
+  preferred_linkage = 'static',
+)
+
+prebuilt_cxx_library(
+  name = 'SSLLib',
+  static_lib = 'lib/libssl.a',
+  preferred_linkage = 'static',
+)
+
+apple_library(
+  name = 'OpenSSL',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    'include/**/*.h',
+  ]),
+  deps = [
+  ':CryptoLib',
+  ':SSLLib',
+  ]
+)

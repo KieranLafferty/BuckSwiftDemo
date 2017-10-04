@@ -1,0 +1,20 @@
+prebuilt_apple_framework(
+    name = 'FabricFramework',
+    framework = 'Fabric.framework',
+    preferred_linkage = 'any',
+    visibility = ['PUBLIC'],
+)
+
+apple_library(
+  name = 'Fabric',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    'Fabric.framework/Headers/*.h'
+  ]),
+  deps = [
+    ':FabricFramework'
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

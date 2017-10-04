@@ -1,0 +1,13 @@
+apple_library(
+  name = 'Result',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'Result/*.swift',
+  ]),
+  deps = [
+
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

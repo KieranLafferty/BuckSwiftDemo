@@ -1,0 +1,31 @@
+prebuilt_cxx_library(
+  name = 'AppboyKitLibrary',
+  lib_name = 'AppboyKitLibrary',
+  lib_dir = 'AppboyKit',
+)
+
+apple_resource(
+  name = 'LocalizationResources',
+  files = glob([
+    'Appboy.bundle/*.lproj',
+  ]),
+  dirs = [
+  ],
+)
+
+apple_library(
+  name = 'Appboy',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    'AppboyKit/**/*.h',
+    'AppboyUI/**/*.h',
+  ]),
+  deps = [
+    ':AppboyKitLibrary',
+    ':LocalizationResources',
+    '//Vendors/SDWebImage:SDWebImage'
+  ],
+  srcs = glob([
+    '**/*.m'
+  ]),
+)

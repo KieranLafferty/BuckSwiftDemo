@@ -1,0 +1,16 @@
+apple_library(
+  name = 'SDWebImage',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    '**/*.h'
+  ]),
+  deps = [
+    '//Vendors/FLAnimatedImage:FLAnimatedImage'
+  ],
+  srcs = glob([
+    '**/*.m'
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

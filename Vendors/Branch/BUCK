@@ -1,0 +1,16 @@
+apple_library(
+  name = 'Branch',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    'Branch/**/*.h'
+  ]),
+  srcs = glob([
+    'Branch/**/*.m'
+  ]),
+  deps = [
+    '//Vendors/Fabric:Fabric'
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

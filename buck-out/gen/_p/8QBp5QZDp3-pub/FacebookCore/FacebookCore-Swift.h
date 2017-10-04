@@ -1,0 +1,1 @@
+/Users/kieranlafferty/Code/BuckSwiftDemo/buck-out/xcode/derived-sources/FacebookCore-f10069e50643a77e4faca7f849688ac2e4d6b7e8/FacebookCore-Swift.h

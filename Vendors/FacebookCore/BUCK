@@ -1,0 +1,15 @@
+apple_library(
+  name = 'FacebookCore',
+  visibility = ['PUBLIC'],
+  bridging_header = 'BuckSupportFiles/FacebookCore-Bridging-Header.h',
+  srcs = glob([
+    'Sources/**/*.swift'
+  ]),
+  swift_version='3.0',
+  deps = [
+    '//Vendors/FBSDKCoreKit:FBSDKCoreKit'
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

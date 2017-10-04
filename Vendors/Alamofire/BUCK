@@ -1,0 +1,13 @@
+apple_library(
+  name = 'Alamofire',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'Source/*.swift',
+  ]),
+  deps = [
+
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

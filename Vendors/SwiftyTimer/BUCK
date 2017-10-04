@@ -1,0 +1,10 @@
+apple_library(
+  name = 'SwiftyTimer',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    '**/*.swift'
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

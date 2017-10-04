@@ -1,0 +1,28 @@
+prebuilt_cxx_library(
+  name = 'FlurryLib',
+  static_lib = 'Flurry/libFlurry_8.2.1.a',
+  preferred_linkage = 'static',
+  exported_headers = glob([
+    'Flurry/Flurry.h',
+    'Flurry/FlurrySessionBuilder.h',
+  ]),
+)
+
+apple_library(
+  name = 'Flurry',
+  visibility = ['PUBLIC'],
+  deps = [
+    ':FlurryLib'
+  ],
+  srcs = glob([
+    'Flurry/*.m'
+  ]),
+  exported_headers = glob([
+    'Flurry/Flurry.h',
+    'Flurry/FlurrySessionBuilder.h',
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+    '$SDKROOT/System/Library/Frameworks/CoreGraphics.framework'
+  ],
+)

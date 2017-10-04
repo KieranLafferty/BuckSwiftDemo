@@ -1,0 +1,6 @@
+prebuilt_apple_framework(
+    name = 'Crashlytics',
+    framework = 'iOS/Crashlytics.framework',
+    preferred_linkage = 'any',
+    visibility = ['PUBLIC'],
+)

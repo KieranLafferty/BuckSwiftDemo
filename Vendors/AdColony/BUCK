@@ -1,0 +1,6 @@
+prebuilt_apple_framework(
+    name = 'AdColony',
+    framework = 'AdColony.framework',
+    preferred_linkage='static',
+    visibility = ['PUBLIC'],
+)

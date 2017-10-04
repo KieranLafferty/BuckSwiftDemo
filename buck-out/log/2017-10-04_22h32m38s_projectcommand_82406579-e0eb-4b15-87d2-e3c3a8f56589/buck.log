@@ -1,0 +1,128 @@
+[2017-10-04 15:32:38.751][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Starting render scheduler (interval 100 ms)
+[2017-10-04 15:32:38.811][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.google.common.util.concurrent.ServiceManager] Starting PerfStatsTracking [RUNNING].
+[2017-10-04 15:32:38.811][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.google.common.util.concurrent.ServiceManager] Started PerfStatsTracking [RUNNING] in 485.5 μs.
+[2017-10-04 15:32:38.815][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.google.common.util.concurrent.ServiceManager] Starting ProcessTracker [STARTING].
+[2017-10-04 15:32:38.816][debug][command:null][tid:21][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2017-10-04 15:32:38.816][debug][command:null][tid:21][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2017-10-04 15:32:38.816][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.cli.Main] InvocationInfo BuildId=[82406579-e0eb-4b15-87d2-e3c3a8f56589] Args=[project, version]
+[2017-10-04 15:32:38.833][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting current SSID..
+[2017-10-04 15:32:38.881][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting SSID from Wi-Fi interface: <CWInterface: 0x7fe969daaa90> [interfaceName=en0]
+[2017-10-04 15:32:38.882][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Found SSID: SciFi
+[2017-10-04 15:32:38.896][debug][command:null][tid:21][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 80.51 ms.
+[2017-10-04 15:32:38.896][debug][command:null][tid:21][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 80.51 ms.
+[2017-10-04 15:32:39.548][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.cli.Main] new Buck daemon
+[2017-10-04 15:32:39.549][warn ][command:null][tid:24][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2017-10-04 15:32:39.549][warn ][command:null][tid:24][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2017-10-04 15:32:39.571][info ][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Starting generation of version control stats.
+[2017-10-04 15:32:39.571][info ][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Starting generation of version control stats.
+[2017-10-04 15:32:39.576][debug][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlCmdLineInterface] Executing command: hg log -l 1 --template {node|short}
+[2017-10-04 15:32:39.576][debug][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlCmdLineInterface] Executing command: hg log -l 1 --template {node|short}
+[2017-10-04 15:32:39.580][warn ][command:null][tid:26][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Mercurial is the only VCS supported for VCS stats generation, however current project (which has enabled VCS stats generation in its .buckconfig) does not appear to be a Mercurial repository: 
+com.facebook.buck.util.versioncontrol.VersionControlCommandFailedException: java.io.IOException: Cannot run program "hg" (in directory "/Users/kieranlafferty/Code/BuckSwiftDemo"): error=2, No such file or directory
+[2017-10-04 15:32:39.580][warn ][command:null][tid:26][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Mercurial is the only VCS supported for VCS stats generation, however current project (which has enabled VCS stats generation in its .buckconfig) does not appear to be a Mercurial repository: 
+com.facebook.buck.util.versioncontrol.VersionControlCommandFailedException: java.io.IOException: Cannot run program "hg" (in directory "/Users/kieranlafferty/Code/BuckSwiftDemo"): error=2, No such file or directory
+[2017-10-04 15:32:39.580][debug][command:null][tid:26][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Using NoOpCmdLineInterface.
+[2017-10-04 15:32:39.580][debug][command:null][tid:26][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Using NoOpCmdLineInterface.
+[2017-10-04 15:32:39.581][warn ][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Skipping generation of version control stats as unsupported repository type.
+[2017-10-04 15:32:39.581][warn ][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Skipping generation of version control stats as unsupported repository type.
+[2017-10-04 15:32:39.596][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine network service order and extract device names
+[2017-10-04 15:32:39.596][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine network service order and extract device names
+[2017-10-04 15:32:39.621][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -listnetworkserviceorder, ]}
+[2017-10-04 15:32:39.621][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -listnetworkserviceorder, ]}
+[2017-10-04 15:32:39.686][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@6d4de34a
+[2017-10-04 15:32:39.686][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@6d4de34a
+[2017-10-04 15:32:39.690][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@21205cc0 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.690][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@21205cc0 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.739][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2017-10-04 15:32:39.739][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2017-10-04 15:32:39.739][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@21205cc0 (force true)
+[2017-10-04 15:32:39.739][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@21205cc0 (force true)
+[2017-10-04 15:32:39.740][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.740][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.740][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, usbmodem14110]}
+[2017-10-04 15:32:39.740][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, usbmodem14110]}
+[2017-10-04 15:32:39.742][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@2375bc1d
+[2017-10-04 15:32:39.742][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@2375bc1d
+[2017-10-04 15:32:39.744][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@6a633ddf timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.744][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@6a633ddf timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.751][info ][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.cli.Main] Awaiting termination of HTTP Write executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2017-10-04 15:32:39.753][debug][command:null][tid:18][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-10-04 15:32:39.753][debug][command:null][tid:18][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-10-04 15:32:39.754][debug][command:null][tid:18][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2017-10-04 15:32:39.754][debug][command:null][tid:18][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2017-10-04 15:32:39.754][info ][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.cli.Main] Awaiting termination of CounterAggregatorExecutor executor service. Waiting for all jobs to complete, or up to maximum of 20 seconds...
+[2017-10-04 15:32:39.757][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:21][com.facebook.buck.util.perf.ProcessTracker] shutDown
+[2017-10-04 15:32:39.757][debug][command:null][tid:20][com.google.common.util.concurrent.ServiceManager] Service PerfStatsTracking [TERMINATED] has terminated. Previous state was: STOPPING
+[2017-10-04 15:32:39.757][debug][command:null][tid:20][com.google.common.util.concurrent.ServiceManager] Service PerfStatsTracking [TERMINATED] has terminated. Previous state was: STOPPING
+[2017-10-04 15:32:39.761][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:21][com.google.common.util.concurrent.ServiceManager] Service ProcessTracker [TERMINATED] has terminated. Previous state was: STOPPING
+[2017-10-04 15:32:39.765][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-10-04 15:32:39.765][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-10-04 15:32:39.765][debug][command:82406579-e0eb-4b15-87d2-e3c3a8f56589][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2017-10-04 15:32:39.783][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:39.783][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@6a633ddf (force true)
+[2017-10-04 15:32:39.783][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.784][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, lpss-serial1]}
+[2017-10-04 15:32:39.786][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@2ecbb3ce
+[2017-10-04 15:32:39.786][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of PROJECT executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-10-04 15:32:39.786][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@d2e2c8b timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.786][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of CPU executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-10-04 15:32:39.787][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of NETWORK executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-10-04 15:32:39.787][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of ScheduledExecutorService executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-10-04 15:32:39.787][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of Disk IO executor service. Waiting for all jobs to complete, or up to maximum of 10 seconds...
+[2017-10-04 15:32:39.827][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:39.827][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@d2e2c8b (force true)
+[2017-10-04 15:32:39.827][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.827][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, lpss-serial2]}
+[2017-10-04 15:32:39.829][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@335ec67
+[2017-10-04 15:32:39.830][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@704bb41b timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.863][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:39.863][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@704bb41b (force true)
+[2017-10-04 15:32:39.863][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.863][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en8]}
+[2017-10-04 15:32:39.866][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@36d2c1f
+[2017-10-04 15:32:39.866][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7f5b128d timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.899][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:39.899][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7f5b128d (force true)
+[2017-10-04 15:32:39.899][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.899][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en9]}
+[2017-10-04 15:32:39.901][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@53219fd5
+[2017-10-04 15:32:39.901][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7ee712c6 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.941][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:39.941][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7ee712c6 (force true)
+[2017-10-04 15:32:39.941][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.942][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en12]}
+[2017-10-04 15:32:39.944][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@1480c4d1
+[2017-10-04 15:32:39.944][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@33e873b6 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:39.979][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:39.979][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@33e873b6 (force true)
+[2017-10-04 15:32:39.979][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:39.980][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en10]}
+[2017-10-04 15:32:39.982][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@6c688d29
+[2017-10-04 15:32:39.982][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@2a5fc340 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:40.016][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:40.016][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@2a5fc340 (force true)
+[2017-10-04 15:32:40.017][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:40.017][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, fw0]}
+[2017-10-04 15:32:40.019][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@38eb3c96
+[2017-10-04 15:32:40.019][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@486e9dfe timeout 1000 MILLISECONDS
+[2017-10-04 15:32:40.052][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2017-10-04 15:32:40.053][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@486e9dfe (force true)
+[2017-10-04 15:32:40.053][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2017-10-04 15:32:40.053][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en0]}
+[2017-10-04 15:32:40.054][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@60c7501f
+[2017-10-04 15:32:40.055][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@34d6ca84 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:40.088][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2017-10-04 15:32:40.088][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@34d6ca84 (force true)
+[2017-10-04 15:32:40.088][debug][command:null][tid:26][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine WiFi SSID of device
+[2017-10-04 15:32:40.089][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getairportnetwork, en0]}
+[2017-10-04 15:32:40.090][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@55385f04
+[2017-10-04 15:32:40.090][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@6985b930 timeout 1000 MILLISECONDS
+[2017-10-04 15:32:40.125][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2017-10-04 15:32:40.125][debug][command:null][tid:26][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@6985b930 (force true)
+[2017-10-04 15:32:40.127][info ][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Starting generation of version control stats.
+[2017-10-04 15:32:40.127][warn ][command:null][tid:26][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Skipping generation of version control stats as unsupported repository type.
+[2017-10-04 15:32:40.129][debug][command:null][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-10-04 15:32:40.129][debug][command:null][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-10-04 15:32:40.129][debug][command:null][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2017-10-04 15:32:40.129][debug][command:null][tid:01][com.facebook.buck.event.listener.ChromeTraceBuildListener] Writing Chrome trace to buck-out/log/2017-10-04_22h32m38s_projectcommand_82406579-e0eb-4b15-87d2-e3c3a8f56589/build.2017-10-04.15-32-38.82406579-e0eb-4b15-87d2-e3c3a8f56589.trace
+[2017-10-04 15:32:40.151][debug][command:null][tid:01][com.facebook.buck.cli.Main] Done.

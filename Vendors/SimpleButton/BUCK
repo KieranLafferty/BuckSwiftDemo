@@ -1,0 +1,14 @@
+apple_library(
+  name = 'SimpleButton',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'SimpleButton/*.swift',
+  ]),
+  deps = [
+
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+    '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+  ],
+)

@@ -1,0 +1,1 @@
+/Users/kieranlafferty/Code/BuckSwiftDemo/Vendors/SDWebImage/SDWebImage/UIView+WebCache.h

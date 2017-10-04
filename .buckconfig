@@ -1,0 +1,17 @@
+[project]
+  ide_force_kill = always
+
+[cxx]
+  default_platform = iphonesimulator-x86_64
+  cflags = -g -fmodules -fobjc-arc -D BUCK -w
+  combined_preprocess_and_compile = true
+
+[swift]
+  version = 3.0
+  compiler_flags = -DBUCK -whole-module-optimization -enable-testing -suppress-warnings
+
+[apple]
+  iphonesimulator_target_sdk_version = 10.0
+  iphoneos_target_sdk_version = 10.0
+  use_swift_delegate=false
+  

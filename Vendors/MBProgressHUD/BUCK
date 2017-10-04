@@ -1,0 +1,13 @@
+apple_library(
+  name = 'MBProgressHUD',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    '**/*.h'
+  ]),
+  srcs = glob([
+    '**/*.m'
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

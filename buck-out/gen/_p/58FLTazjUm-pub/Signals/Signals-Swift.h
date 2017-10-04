@@ -1,0 +1,1 @@
+/Users/kieranlafferty/Code/BuckSwiftDemo/buck-out/xcode/derived-sources/Signals-e7c14b4dace352622d2430b023a9eac8be1eb98c/Signals-Swift.h

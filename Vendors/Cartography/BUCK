@@ -1,0 +1,12 @@
+apple_library(
+  name = 'Cartography',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'Cartography/*.swift',
+  ]),
+  deps = [
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

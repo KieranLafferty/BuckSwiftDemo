@@ -1,0 +1,13 @@
+apple_library(
+  name = 'Bolts',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    'Bolts/**/*.h'
+  ]),
+  srcs = glob([
+    'Bolts/**/*.m'
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

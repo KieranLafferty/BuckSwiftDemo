@@ -1,0 +1,3 @@
+InvocationInfo {"buildId":"f22250b5-7a9d-4ce5-8b18-26fdce7cd086","superConsoleEnabled":true,"isDaemon":false,"subCommand":"projectcommand","commandArgs":["project","//Apps/BuckSwiftDemo:BuckSwiftDemo","--ide","xcode"],"unexpandedCommandArgs":["project","//Apps/BuckSwiftDemo:BuckSwiftDemo","--ide","xcode"],"buckLogDir":"buck-out/log","timestampMillis":1507156261172}
+ParseStarted {"timestamp":1507156264686}
+ParseFinished {"timestamp":1507156265213}

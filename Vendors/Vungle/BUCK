@@ -1,0 +1,17 @@
+prebuilt_apple_framework(
+    name = 'VungleFramework',
+    framework = 'VungleSDK.framework',
+    preferred_linkage = 'any',
+    visibility = ['PUBLIC'],
+)
+
+apple_library(
+  name = 'Vungle',
+  visibility = ['PUBLIC'],
+  deps = [
+    ':VungleFramework'
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

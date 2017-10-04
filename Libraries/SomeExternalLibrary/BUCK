@@ -1,0 +1,26 @@
+apple_library(
+  name = 'SomeExternalLibrary',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'SomeExternalLibrary/*.swift',
+  ]),
+  swift_version='3.0',
+  deps = [
+  	'//Vendors/Adjust:Adjust',
+  	'//Vendors/Alamofire:Alamofire',
+  	'//Vendors/AlamofireObjectMapper:AlamofireObjectMapper',
+    '//Vendors/Appboy:Appboy',
+    '//Vendors/FacebookCore:FacebookCore',
+    '//Vendors/Flurry:Flurry',
+    '//Vendors/KeychainAccess:KeychainAccess',
+    '//Vendors/Mixpanel:Mixpanel',
+  	'//Vendors/ObjectMapper:ObjectMapper',
+  	'//Vendors/PromiseKit:PromiseKit',
+  	'//Vendors/ReachabilitySwift:ReachabilitySwift',
+  	'//Vendors/ReactiveSwift:ReactiveSwift',
+  ],
+  frameworks = [
+      '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+      '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+  ],
+)

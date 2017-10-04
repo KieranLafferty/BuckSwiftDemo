@@ -1,0 +1,13 @@
+apple_library(
+  name = 'Mixpanel',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'Mixpanel/*.swift',
+  ]),
+  swift_version='3.0',
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+    '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+    '$SDKROOT/System/Library/Frameworks/CoreTelephony.framework',
+  ],
+)

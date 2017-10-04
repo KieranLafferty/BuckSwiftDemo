@@ -1,0 +1,17 @@
+prebuilt_apple_framework(
+    name = 'SquallFramework',
+    framework = 'Squall.framework',
+    preferred_linkage = 'any',
+    visibility = ['PUBLIC'],
+)
+
+apple_library(
+  name = 'Squall',
+  visibility = ['PUBLIC'],
+  deps = [
+    ':SquallFramework'
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

@@ -1,0 +1,14 @@
+apple_library(
+  name = 'Adjust',
+  visibility = ['PUBLIC'],
+  bridging_header = 'BuckSupportFiles/Adjust-Bridging-Header.h',
+  exported_headers = glob([
+    'Adjust/**/*.h'
+  ]),
+  srcs = glob([
+    'Adjust/**/*.m'
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

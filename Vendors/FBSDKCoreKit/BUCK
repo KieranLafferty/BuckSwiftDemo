@@ -1,0 +1,16 @@
+apple_library(
+  name = 'FBSDKCoreKit',
+  visibility = ['PUBLIC'],
+  exported_headers = glob([
+    '**/*.h'
+  ]),
+  srcs = glob([
+    '**/*.m'
+  ]),
+  deps = [
+    '//Vendors/Bolts:Bolts'
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

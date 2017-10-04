@@ -1,0 +1,27 @@
+
+apple_library(
+  name = 'PromiseKitObjc',
+  exported_headers = glob([
+    '**/*.h',
+  ]),
+  srcs = glob([
+    '**/*.m',
+  ]),
+)
+
+
+apple_library(
+  name = 'PromiseKit',
+  visibility = ['PUBLIC'],
+  bridging_header = 'BuckSupportFiles/PromiseKit-Bridging-Header.h',
+  exported_headers = glob([
+    '**/*.h',
+  ]),
+  swift_version='3.0',
+  srcs = glob([
+    '**/*.swift',
+  ]),
+  deps = [
+    ':PromiseKitObjc'
+  ]
+)

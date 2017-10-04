@@ -1,0 +1,14 @@
+apple_library(
+  name = 'ReactiveSwift',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'Sources/*.swift',
+  ]),
+  swift_version='3.0',
+  deps = [
+	'//Vendors/Result:Result',
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

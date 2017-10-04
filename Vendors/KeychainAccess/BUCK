@@ -1,0 +1,11 @@
+apple_library(
+  name = 'KeychainAccess',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'Lib/KeychainAccess/*.swift',
+  ]),
+  swift_version='3.0',
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)

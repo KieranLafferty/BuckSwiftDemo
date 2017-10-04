@@ -1,0 +1,1 @@
+/Users/kieranlafferty/Code/BuckSwiftDemo/Vendors/SDWebImage/SDWebImage/UIButton+WebCache.h

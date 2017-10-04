@@ -1,0 +1,14 @@
+apple_library(
+  name = 'AlamofireObjectMapper',
+  visibility = ['PUBLIC'],
+  srcs = glob([
+    'AlamofireObjectMapper/*.swift',
+  ]),
+  deps = [
+	'//Vendors/Alamofire:Alamofire',
+	'//Vendors/ObjectMapper:ObjectMapper',
+  ],
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework'
+  ],
+)
